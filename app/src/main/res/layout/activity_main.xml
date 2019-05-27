@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+    <Button
+            android:id="@+id/showToastButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Toast"
+    />
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text=""
+            android:hint="enter here some msg"
+            android:ems="10"
+            tools:layout_editor_absoluteY="134dp"
+            tools:layout_editor_absoluteX="109dp"
+            android:id="@+id/editText"/>
+    <Button
+            android:text="send message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteY="285dp"
+            tools:layout_editor_absoluteX="161dp"
+            android:id="@+id/buttonsendmsg"
+    />
+    <Button
+            android:layout_marginTop="30dp"
+            android:text="share with other App "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonshareOtherApp"/>
+    <Button
+            android:text="Recycler View Demo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRecycler"/>
+
+</LinearLayout>
