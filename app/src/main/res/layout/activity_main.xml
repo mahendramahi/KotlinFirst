@@ -12,20 +12,20 @@
             android:id="@+id/showToastButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Show Toast"
+            android:text="@string/show_toast"
     />
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:text=""
-            android:hint="enter here some msg"
+            android:hint="@string/enter_here_some_msg"
             android:ems="10"
             tools:layout_editor_absoluteY="134dp"
             tools:layout_editor_absoluteX="109dp"
             android:id="@+id/editText"/>
     <Button
-            android:text="send message"
+            android:text="@string/send_message"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:layout_editor_absoluteY="285dp"
@@ -34,12 +34,12 @@
     />
     <Button
             android:layout_marginTop="30dp"
-            android:text="share with other App "
+            android:text="@string/share_with_other_app"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/buttonshareOtherApp"/>
     <Button
-            android:text="Recycler View Demo"
+            android:text="@string/recycler_view_demo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/btnRecycler"/>

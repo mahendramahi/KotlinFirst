@@ -1,10 +1,9 @@
-package com.kotlin.demo
+package com.kotlin.demo.model
 
 data class Hobby(var title: String)
 
-
-object supplier {
-    val hobbies = listOf<Hobby>(
+object Supplier {
+    val hobbies = listOf(
         Hobby("Swiming"),
         Hobby("Reading"),
         Hobby("Walking"),

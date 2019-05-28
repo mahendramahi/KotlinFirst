@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">démo</string>
+    <string name="show_toast">Montrer le pain grillé</string>
+    <string name="enter_here_some_msg">entrez ici quelques msg</string>
+    <string name="send_message">envoyer le message</string>
+    <string name="share_with_other_app">partager avec d\'autres applications</string>
+    <string name="recycler_view_demo">Recycler Voir la démo</string>
+    <string name="textview">Affichage</string>
+    <string name="title">Titre</string>
+</resources>

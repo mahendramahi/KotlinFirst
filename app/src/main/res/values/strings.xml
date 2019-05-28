@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">demo</string>
+    <string name="show_toast">Show Toast</string>
+    <string name="enter_here_some_msg">enter here some msg</string>
+    <string name="send_message">send message</string>
+    <string name="share_with_other_app">share with other App</string>
+    <string name="recycler_view_demo">Recycler View Demo</string>
+    <string name="textview">TextView</string>
+    <string name="title">Title</string>
 </resources>

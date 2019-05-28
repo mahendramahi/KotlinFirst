@@ -1,8 +1,11 @@
-package com.kotlin.demo
+package com.kotlin.demo.activity
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
+import com.kotlin.demo.AppConstant
+import com.kotlin.demo.R
+import com.kotlin.demo.showToast
 import kotlinx.android.synthetic.main.activity_second.*
 
 class SecondActivity : AppCompatActivity() {
@@ -13,11 +16,10 @@ class SecondActivity : AppCompatActivity() {
 
         val bundle: Bundle? = intent.extras
 
-        val msg = bundle!!.getString("user_message")
-
-        textView.text = msg
-
-        Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
+       bundle?.let {
+           val msg = bundle.getString(AppConstant.USER_MSG_KEY)
+           textView.text = msg
+           showToast(msg)
+       }
     }
-
 }
